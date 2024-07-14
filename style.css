@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    position: fixed; /* Add positioning context */
+    z-index: 10;
+    width: 100%;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 4vh;
+}
+li{
+    display: inline-block;
+    padding-left: 15px;
+    flex-wrap: nowrap;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    text-wrap: nowrap;
+    padding-left: 15px;
+}
+.landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.exp{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background: repeating-radial-gradient( rgba(255, 105, 187), rgba(247, 0, 255) 18%);
+    border-radius: 200px;
+    padding-left: 5vw;
+    transition: scale 1s, border-radius 0.5s, transform 0.5s;
+}
+.exp:hover{
+    scale: 5;
+    border-radius: 0;
+}
+.landtext {
+    transition: transform 1s ease, color 1s ease-in; /* Add transition time for transform */
+    color: transparent;
+}
+.landtext h1{
+    font-size: 1.5vw;
+}
+.landtext h5{
+    font-size: 0.4vw;
+}
+.exp:hover .landtext{
+    transform: translateX(20%);
+    color: blanchedalmond;
+}
