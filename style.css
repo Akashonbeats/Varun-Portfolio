@@ -15,9 +15,15 @@ nav{
     position: fixed; /* Add positioning context */
     z-index: 10;
     width: 100%;
-    padding-left: 65px;
-    padding-right: 65px;
+    padding-left: 6vw;
+    padding-right: 6vw;
     padding-top: 4vh;
+}
+nav h2{
+    font-size: 1.7vw;
+}
+nav li{
+    font-size: 1.1vw;
 }
 li{
     display: inline-block;
@@ -42,19 +48,18 @@ li a{
     display: flex;
     justify-content: left;
     align-items: center;
-    height: 400px;
-    width: 400px;
+    height: 53vh;
+    width: 53vh;
     background: repeating-radial-gradient( rgba(255, 105, 187), rgba(247, 0, 255) 18%);
-    border-radius: 200px;
+    border-radius: 26.5vh;
     padding-left: 5vw;
     transition: scale 1s, border-radius 0.5s, transform 0.5s;
 }
 .exp:hover{
-    scale: 5;
+    scale: 4;
     border-radius: 0;
 }
 .landtext {
-    transition: transform 1s ease, color 1s ease-in; /* Add transition time for transform */
     color: transparent;
 }
 .landtext h1{
@@ -64,6 +69,7 @@ li a{
     font-size: 0.4vw;
 }
 .exp:hover .landtext{
-    transform: translateX(20%);
+    transform: translateX(1vw);
     color: blanchedalmond;
+    transition: transform 1s ease, color 1s ease-in 0.5s; /* Apply delay only when hovering */
 }
