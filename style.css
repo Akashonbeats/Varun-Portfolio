@@ -53,7 +53,7 @@ li a{
     align-items: center;
     height: 53vh;
     width: 53vh;
-    background: repeating-radial-gradient( rgba(255, 105, 187), rgba(247, 0, 255) 18%);
+    background: repeating-radial-gradient( rgba(247, 0, 255), rgba(255, 105, 187) 18%);
     border-radius: 26.5vh;
     padding-left: 5vw;
     transition: scale 1s, border-radius 0.5s, transform 0.5s;
