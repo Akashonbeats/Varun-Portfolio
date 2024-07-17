@@ -57,9 +57,10 @@ li a{
     border-radius: 26.5vh;
     padding-left: 5vw;
     transition: scale 1s, border-radius 0.5s, transform 0.5s;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
 }
 .exp:hover{
-    scale: 4;
+    scale: 5;
     border-radius: 0;
 }
 .landtext {
